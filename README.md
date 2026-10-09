@@ -12,6 +12,8 @@ Organisation-wide defaults for `GEG-ETHZ`.
 How the board, issue types and forms are meant to be used is documented in
 `operations/project-management/` in the `geg-ops` repository (team members only).
 
-To change a form, change it here. A repository that adds its own
+To change a form, change it here. `scripts/check_issue_forms.py` runs on every pull
+request and checks that each form sets an issue type, that Task is the first form, and
+that blank issues stay off. A repository that adds its own
 `.github/ISSUE_TEMPLATE/` folder stops getting these forms, so do not add one unless
 that repository really needs different forms.
