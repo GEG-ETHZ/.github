@@ -1,0 +1,11 @@
+name: Topic
+description: A long-running piece of work or app that groups Features.
+type: Topic
+projects: ["GEG-ETHZ/7"]
+body:
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+    validations:
+      required: true

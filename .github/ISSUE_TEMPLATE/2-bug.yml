@@ -1,0 +1,17 @@
+name: Bug
+description: Something is broken.
+type: Bug
+projects: ["GEG-ETHZ/7"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should happen
+    validations:
+      required: true

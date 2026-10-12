@@ -1,0 +1,17 @@
+name: Feature
+description: A deliverable made of Tasks. Attach it to its Topic.
+type: Feature
+projects: ["GEG-ETHZ/7"]
+body:
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+    validations:
+      required: true

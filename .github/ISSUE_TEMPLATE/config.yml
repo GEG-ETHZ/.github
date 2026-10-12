@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: How we track work
+    url: https://github.com/GEG-ETHZ/geg-ops/blob/main/operations/project-management/README.md
+    about: Issue types, the board, statuses and fields.
