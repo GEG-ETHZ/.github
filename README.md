@@ -8,6 +8,10 @@ Organisation-wide defaults for `GEG-ETHZ`.
   Topic. Every repository without its own `.github/ISSUE_TEMPLATE/` folder uses them.
   Each form sets the issue type and adds the issue to the
   [GEG-AI board](https://github.com/orgs/GEG-ETHZ/projects/7). Blank issues are off.
+- **`.github/workflows/gitleaks.yml`** scans a repository's full history for secrets.
+  An organisation ruleset requires it on pull requests in every repository it targets,
+  so no repository pins gitleaks in its own CI. Why, and how to set it up:
+  `computing/code/secrets.md` in the `geg-ops` repository.
 
 How the board, issue types and forms are meant to be used is documented in
 `operations/project-management/` in the `geg-ops` repository (team members only).
